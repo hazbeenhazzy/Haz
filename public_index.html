@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Logo and Thumbnail Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Logo and Thumbnail Generator</h1>
+        <form id="generate-form">
+            <label for="type">Select Type:</label>
+            <select id="type" name="type">
+                <option value="logo">Logo</option>
+                <option value="thumbnail">Thumbnail</option>
+            </select>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" placeholder="Enter a description for the logo or thumbnail..."></textarea>
+            <button type="submit">Generate</button>
+        </form>
+        <div id="result">
+            <!-- Generated image will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
